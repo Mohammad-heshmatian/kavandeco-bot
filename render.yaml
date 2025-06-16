@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: kavandeco-bot
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    autoDeploy: true
